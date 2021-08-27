@@ -9,4 +9,11 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu_btn i').toggleClass("active");
     });
+    
+    var typed = new Typed(".typing", {
+        strings: ["Web Developer", "Graphic Designer", "UI/UX Designer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    }); 
 });
